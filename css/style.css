@@ -69,11 +69,42 @@ body{
 .text{
     margin-left: 50px;
     list-style-type: none;
+    padding-top: 10px;
 }
 
 .blu{
     font-size: x-small;
     background-color: rgb(100, 188, 247);
+    color: white;
+    padding: 5px;
+    box-sizing: content-box;
+    border-radius: 20%;
+}
+
+/*seconda lista*/
+.viola{
+    font-size: x-small;
+    background-color: rgb(177, 22, 164);
+    color: white;
+    padding: 5px;
+    box-sizing: content-box;
+    border-radius: 20%;
+    
+}
+
+.verde{
+    font-size: x-small;
+    background-color: rgb(134, 241, 134);
+    color: white;
+    padding: 5px;
+    box-sizing: content-box;
+    border-radius: 20%;
+    
+}
+
+.arancione{
+    font-size: x-small;
+    background-color: orange;
     color: white;
     padding: 5px;
     box-sizing: content-box;
