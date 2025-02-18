@@ -28,6 +28,7 @@ body{
 .content{
     margin:40px 70px;
     background-color: white;
+    padding-bottom: 40px;
 }
 
 .rettangolo{
@@ -111,3 +112,21 @@ body{
     border-radius: 20%;
 }
 
+/*terza lista*/
+.rosa{
+    font-size: x-small;
+    background-color: rgb(250, 73, 156);
+    color: white;
+    padding: 5px;
+    box-sizing: content-box;
+    border-radius: 20%;
+}
+
+.giallo{
+    font-size: x-small;
+    background-color: rgb(203, 250, 73);
+    color: white;
+    padding: 5px;
+    box-sizing: content-box;
+    border-radius: 20%;
+}
