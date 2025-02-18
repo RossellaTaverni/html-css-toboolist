@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(224, 222, 222);
+}
 
+/*header creation*/
 .header{
     background-color: white;
 }
@@ -13,3 +17,66 @@
     display: inline-block;
     vertical-align: middle;
 }
+
+/*main creation*/
+
+.container{
+    width: 1200px;
+    margin: 0% auto;
+}
+
+.content{
+    margin:40px 70px;
+    background-color: white;
+}
+
+.rettangolo{
+    display: inline-block;
+    margin-top: 10px;
+    
+}
+
+.uno{
+    background-color: rgb(100, 188, 247);
+    color: white;
+    width: 70px;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: content-box;
+    border: solid rgb(100, 188, 247);
+    margin-left: 30px;
+}
+
+.due{
+    background-color: white;
+    color: gray;
+    width: 80px;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: content-box;
+    border: solid gray;
+}
+
+/*prima lista*/
+.grassetto{
+    margin-top: 30px;
+    margin-left: 50px;
+    list-style-type: none;
+    font-size: large;
+    
+}
+
+.text{
+    margin-left: 50px;
+    list-style-type: none;
+}
+
+.blu{
+    font-size: x-small;
+    background-color: rgb(100, 188, 247);
+    color: white;
+    padding: 5px;
+    box-sizing: content-box;
+    border-radius: 20%;
+}
+
